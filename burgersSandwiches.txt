@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biff's Kitchen | Burgers & Sandwiches</title>
+	<meta charset="utf-8">
+
+	<!--Favicon-->
+	<link href="kitchenStyle.css" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="images/biffThumbnail.jpg">
+</head>
+<body>
+	<!--Main navigation section-->
+	<header>
+		<a href="contact.html"><h1>Contact</h1></a> 
+		<a href="menu.html"><h1>Menu</h1></a>
+		<a href="home.html"><h1>Home</h1></a>
+	</header>
+
+	<!--Main section titles-->
+	<h2 style="text-align: center;">Menu</h2>
+	<h2 style="text-align: center;">Burgers & Sandwiches</h2>
+
+	<!--Menu navigation section-->
+	<nav>
+		<a href="menu.html"><h3>Daily Specials</h3></a> &nbsp;
+		<a href="breakfast.html"><h3>Breakfast</h3></a> &nbsp;
+		<a href="meltsMore.html"><h3>Melts & More</h3></a> &nbsp;
+		<a href="burgersSandwiches.html"><h3>Burgers & Sandwiches</h3></a> &nbsp;
+		<a href="extras.html"><h3>Extras</h3></a> &nbsp;
+		<a href="appetizers.html"><h3>Appetizers</h3></a>
+	</nav>
+
+	<main>
+		<!--Main item section-->
+		<div class="grid-container">
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">HAM SANDWICH</h4></td></tr>
+					<tr><td><center><img src="images/hamSandwich.jpg" alt="Ham Sandwich"></center></td></tr>
+					<tr><td><p>
+						Shaved, lean ham served on your choice
+						of white or wheat bread.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$4.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">TEX MEX BURGER</h4></td></tr>
+					<tr><td><center><img src="images/texMexBurger.jpg" alt="Tex Mex Burger"></center></td></tr>
+					<tr><td><p>
+						1/3 lb fresh beef patty with sautéed
+						onions, jalapeños, green pepper and
+						pepper jack cheese. Served on a bun
+						with a lettuce leaf, tomato and a
+						side of chipotle.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$7.00</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table>
+					<tr><td><h4 style="text-align: center;">BBQ BEEF</h4></td></tr>
+					<tr><td><center><img src="images/bBQBeef.jpg" alt="BBQ Beef"></center></td></tr>
+					<tr><td><p>
+						Fresh ground beef smothered in our
+						homemade BBQ sauce, served on a grilled
+						bun.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$4.75</h5></td></tr>
+				</table>
+			</div>
+			
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">BEEF OR PORK SANDWICH</h4></td></tr>
+					<tr><td><center><img src="images/beefSandwich2.jpg" alt="Beef or Pork"></center></td></tr>
+					<tr><td><p>
+						Your choice of fresh roasted beef or pork
+						served on white or wheat bread.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$5.00</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">HAMBURGER</h4></td></tr>
+					<tr><td><center><img src="images/hamburger.jpg" alt="Hamburger"></center></td></tr>
+					<tr><td><p>
+						1/3 lb fresh beef patty served on a grilled
+						bun.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$5.25, Cheeseburger: $5.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table>
+					<tr><td><h4 style="text-align: center;">PIZZA BURGER</h4></td></tr>
+					<tr><td><center><img src="images/pizzaBurger.jpg" alt="Pizza Burger"></center></td></tr>
+					<tr><td><p>
+						Two grilled, pizza seasoned meat patties
+						stuffed with melted mozzarella cheese.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$5.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">WESTERN BURGER</h4></td></tr>
+					<tr><td><center><img src="images/westernBurger.jpg" alt="Western Burger"></center></td></tr>
+					<tr><td><p>
+						1/3 lb fresh beef patty with bacon,
+						American cheese, crispy onion rings
+						and BBQ sauce on a grilled bun.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">CALIFORNIA BURGER</h4></td></tr>
+					<tr><td><center><img src="images/californiaBurger.jpg" alt="California Burger"></center></td></tr>
+					<tr><td><p>
+						Our hamburger topped with lettuce,
+						tomato and onion with a side of mayo.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table>
+					<tr><td><h4 style="text-align: center;">FISH BURGER</h4></td></tr>
+					<tr><td><center><img src="images/fishBurger.jpg" alt="Fish Burger"></center></td></tr>
+					<tr><td><p>
+						Breaded cod Fillet fried golden crisp,
+						served on a grilled bun, sided with lettuce
+						and tartar sauce.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$5.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">BACON CHEESEBURGER</h4></td></tr>
+					<tr><td><center><img src="images/baconCheeseburger.jpg" alt="Bacon Cheeseburger"></center></td></tr>
+					<tr><td><p>
+						1/3 lb grilled beef patty topped with
+						crisp bacon and melted American cheese,
+						served on a grilled bun.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">MUSHROOM SWISS BURGER</h4></td></tr>
+					<tr><td><center><img src="images/mushroomSwiss.jpg" alt="Mushroom Swiss Burger"></center></td></tr>
+					<tr><td><p>
+						1/3 lb grilled beeef patty smothered
+						with sautéed mushrooms and melted swiss
+						cheese.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.25</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table>
+					<tr><td><h4 style="text-align: center;">HAWAIIAN CHICKEN</h4></td></tr>
+					<tr><td><center><img src="images/hawaiianChicken.jpg" alt="Hawaiian Chicken"></center></td></tr>
+					<tr><td><p>
+						Grilled chicken breast fillet topped
+						with melted mozzarella cheese and a
+						slice of pineapple. Served with lettuce
+						on a grilled bun.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">Biff Burger</h4></td></tr>
+					<tr><td><center><img src="images/biffBurger.jpg" alt="Biff Burger"></center></td></tr>
+					<tr><td><p>
+						1/3 lb burger with crisp bacon, cheese,
+						lettuce, tomato, and mayo.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$7.00</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">EGG SALAD</h4></td></tr>
+					<tr><td><center><img src="images/eggSandwich.jpg" alt="Egg Salad"></center></td></tr>
+					<tr><td><p>
+						Homemade egg salad with lettuce on your
+						choice of white or wheat bread.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$3.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table>
+					<tr><td><h4 style="text-align: center;">CHICKEN BREAST</h4></td></tr>
+					<tr><td><center><img src="images/chickenSandwich.jpg" alt="Chicken Breast"></center></td></tr>
+					<tr><td><p>
+						Juicy grilled chicken breast. Served on
+						a grilled bun with lettuce and mayo.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.50</h5></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<!--Sides section-->
+		<div class="grid-container2">
+			<div class="item1">
+				<center>
+				<table>
+					<tr><td><h4>Sides</h4></td></tr>
+					<tr><td><h5>French Fries: $2.50</h5></td></tr>
+					<tr><td><h5>American Fries: $3.00</h5></td></tr>
+					<tr><td><h5>Country Gravy: $1.50</h5></td></tr>
+					<tr><td><h5>Bread Stick (1): $0.85 (2): $1.75</h5></td></tr>
+					<tr><td><h5>Potato Salad: $3.75</h5></td></tr>
+					<tr><td><h5>Hash Browns: $3.00</h5></td></tr>
+					<tr><td><h5>Mashed Potato with Country Gravy: $3.00</h5></td></tr>
+				</table>
+				</center>
+			</div>
+			<div class="item2">
+				<center>
+				<table>
+					<tr><td><h4>Beverages</h4></td></tr>
+					<tr><td><h5>Canned Soda*: $1.50</h5></td></tr>
+					<tr><td><h5>Hot Chocolate: $2.50</h5></td></tr>
+					<tr><td><h5>Milk (sm): $2.00 (lg): $2.50</h5></td></tr>
+					<tr><td><h5>Chocolate Milk (sm): $2.00 (lg): $2.75</h5></td></tr>
+					<tr><td><h5>Fruit Juices** (sm): $2.00 (lg): $2.75</h5></td></tr>
+					<tr><td><p>*Canned Soda comes in 12 oz cans of Coke & Pepsi products</p></td></tr>
+					<tr><td><p>**Fruit Juices flavors include orange, tomato, grapesuit, and apple.</td></tr>
+				</table>
+				</center>
+			</div>	
+		</div>
+	</main>
+
+	<!--Footer with copyright-->
+	<br/>
+	<footer>&#169 2022 Biff's Kitchen</footer>
+</body>
+</html>

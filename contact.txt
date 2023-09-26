@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biff's Kitchen | Contact</title>
+	<meta charset="utf-8">
+	<link href="kitchenStyle.css" rel="stylesheet">
+
+	<!--Favicon-->
+	<link rel="icon" type="image/x-icon" href="images/biffThumbnail.jpg">
+
+	<style>
+		/*Constructs the grid for contact image and information*/
+		.contact-grid {
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-template-rows: auto auto auto auto;
+			column-gap: 15px;
+			row-gap: 20px;
+			}
+
+		/*Specifications for the image in the grid*/
+		.img-grid {
+			grid-row-start: 1;
+			grid-row-end: 5;
+			grid-column-start: 1;
+			grid-column-end: 2;
+			text-align: center;
+			}
+
+		/*Specifications for the contact information*/
+		.contact {
+			grid-column-start: 2;
+			grid-column-end: 3;
+			}
+	</style>
+</head>
+
+<body>
+	<!--Main navigation section-->
+	<header>
+		<a href="contact.html"><h1>Contact</h1></a>
+		<a href="menu.html"><h1>Menu</h1></a>
+		<a href="home.html"><h1>Home</h1></a>
+	</header>
+
+	<main>
+		<!--Grid with contact photo and information-->
+		<div class="contact-grid">
+			<!--Image section-->
+			<div class="img-grid">
+				<!--Thumbnail which displays image in a new tab-->
+				<a target="_blank" href="images/restaurant.jpg">
+					<img src="images/restaurant.jpg" height="100%"/>
+				</a>
+			</div>
+
+			<!--Contact information-->
+			<p class="contact">Address: 
+				<a href="https://www.google.com/maps/place/Biff's+Kitchen/@48.1247008,-96.177115,17z/data=!4m5!3m4!1s0x52c7111a981f7ead:0x265532722751e9!8m2!3d48.1246957!4d-96.1770368">
+					811 Atlantic Ave, TRF, MN
+				</a>
+			</p>
+			<p class="contact">Phone: 
+				<a href="tel:12186819907">(218) 681-9907
+				</a>
+			</p>
+			<p class="contact">Hours: M to F: 6AM-2PM, Sa: 7AM-2PM</p>
+			<p class="contact">
+				<a href="https://m.facebook.com/biffskitchenTRF/about">
+					Follow us on Facebook!
+				</a>
+			</p>
+		</div>
+	</main>
+	
+	<!--Footer with copyright-->
+	<footer>&#169 2022 Biff's Kitchen</footer>
+</body>
+</html>

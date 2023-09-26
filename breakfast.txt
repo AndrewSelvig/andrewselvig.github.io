@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biff's Kitchen | Breakfast</title>
+	<meta charset="utf-8">
+
+	<!--Favicon-->
+	<link href="kitchenStyle.css" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="images/biffThumbnail.jpg">
+</head>
+<body>
+	<!--Main navigation section-->
+	<header>
+		<a href="contact.html"><h1>Contact</h1></a> 
+		<a href="menu.html"><h1>Menu</h1></a>
+		<a href="home.html"><h1>Home</h1></a>
+	</header>
+
+	<!--Main section titles-->
+	<h2 style="text-align: center;">Menu</h2>
+	<h2 style="text-align: center;">Breakfast</h2>
+
+	<!--Menu navigation section-->
+	<nav>
+		<a href="menu.html"><h3>Daily Specials</h3></a> &nbsp;
+		<a href="breakfast.html"><h3>Breakfast</h3></a> &nbsp;
+		<a href="meltsMore.html"><h3>Melts & More</h3></a> &nbsp;
+		<a href="burgersSandwiches.html"><h3>Burgers & Sandwiches</h3></a> &nbsp;
+		<a href="extras.html"><h3>Extras</h3></a> &nbsp;
+		<a href="appetizers.html"><h3>Appetizers</h3></a>
+	</nav>
+
+	<main>
+		<!--Menu item section-->
+		<div class="grid-container">
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">BIFF'S SPECIAL</h4></td></tr>
+					<tr><td><center><img src="images/biffsSpecial.jpg" alt="Biff's Special"></center></td></tr>
+					<tr><td><p>
+						Two eggs, toast, hash browns or American fries
+						and your choice of ham or bacon or patties
+						or links or polish sausage.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$7.25</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">LITTLE BIFFS</h4></td></tr>
+					<tr><td><center><img src="images/littleBiffs.jpg" alt="Little Biffs"></center></td></tr>
+					<tr><td><p>
+						One egg, toast, 1/2 order of hash browns or
+						1/2 order of American fries and your choice 
+						of bacon or patty or links.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">BISCUITS & GRAVY</h4></td></tr>
+					<tr><td><center><img src="images/biscuitsGravy.jpg" alt="Biscuits & Gravy"></center></td></tr>
+					<tr><td><p>
+						Fluffy biscuit smothered with
+						delicious gravy.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">One Biscuit: $5.00, Two Biscuits: $7.50</h5></td></tr>
+				</table>
+			</div>
+			
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">BISCUITS & GRAVY PLUS</h4></td></tr>
+					<tr><td><center><img src="images/biscuitsGravyPlus.jpg" alt="Biscuits & Gravy Plus"></center></td></tr>
+					<tr><td><p>
+						One biscuit & gravy, one egg 
+						and 1/2 order of hash browns 
+						or 1/2 order of American fries.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$7.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">COUNTRY DELUXE</h4></td></tr>
+					<tr><td><center><img src="images/countryDeluxe.jpg" alt="Country Deluxe"></center></td></tr>
+					<tr><td><p>
+						One biscuit topped with a country
+						fried steak and gravy with a choice
+						of eggs.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$8.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">STEAK & EGGS</h4></td></tr>
+					<tr><td><center><img src="images/steakEggs.jpg" alt="Steak & Eggs"></center></td></tr>
+					<tr><td><p>
+						Two eggs with toast and your choice
+						of one of the following meats:
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">5 oz Juicy Sirloin Steak: $9.00,
+										Hamburger Steak: $8.25,
+										Country Fried Steak: $7.25</h5></td></tr>
+				</table>
+			</div>	
+
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">CORNED BEEF HASH</h4></td></tr>
+					<tr><td><center><img src="images/cornedBeefHash.jpg" alt="Corned Beef Hash"></center></td></tr>
+					<tr><td><p>
+						With two eggs and toast.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">BREAKFAST SANDWICH</h4></td></tr>
+					<tr><td><center><img src="images/breakfastSandwich.jpg" alt="Breakfast Sandwich"></center></td></tr>
+					<tr><td><p>
+						One egg and your choice of ham,
+						bacon, or a sausage patty.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$5.00</h5></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<br/>
+		<!--Omelets & Skillets section-->
+		<h3 style="text-align: center;">Omelets & Skillets</h3>
+		<div class="grid-container">
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">CHEESE OMELET</h4></td></tr>
+					<tr><td><center><img src="images/cheeseOmelet.jpg" alt="Cheese Omelet"></center></td></tr>
+					<tr><td><p>
+						Fluffy omelet filled with American cheese.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$5.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">TACO OMELET</h4></td></tr>
+					<tr><td><center><img src="images/tacoOmelet.jpg" alt="Taco Omelet"></center></td></tr>
+					<tr><td><p>
+						Omelet filled with taco meat, onions, tomatoes,
+						green peppers and cheese.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$9.00</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">BIFF'S SKILLET</h4></td></tr>
+					<tr><td><center><img src="images/biffSkillet.jpg" alt="Biff's Skillet"></center></td></tr>
+					<tr><td><p>
+						Two eggs scrambled with ham, sausage, onions,
+						green peppers and mushrooms smothered over hash
+						browns topped with cheese and served with toast.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">Small: $8.25, Regular: $9.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">MEAT & CHEESE OMELET</h4></td></tr>
+					<tr><td><center><img src="images/meatCheeseOmelet.jpg" alt="Meat & Cheese Omelet"></center></td></tr>
+					<tr><td><p>
+						Choice of ham or sausage or bacon and cheese.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">(1) Meat: $6.50, (2): $7.00, (3): $8.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">CORN BEEF HASH OMELET</h4></td></tr>
+					<tr><td><center><img src="images/cornBeefHashOmelet.jpg" alt="Corn Beef Hash Omelet"></center></td></tr>
+					<tr><td><p>
+						Corn beef hash, onions, green peppers, and cheese.
+						Topped with country gravy.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$9.25</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">TACO SKILLET</h4></td></tr>
+					<tr><td><center><img src="images/tacoSkillet.jpg" alt="Taco Skillet"></center></td></tr>
+					<tr><td><p>
+						A bed of hash browns and scrambled eggs covered
+						with taco meat, onions, green peppers, tomatoes
+						and cheese, served with toast.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$10.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">WESTERN OMELET</h4></td></tr>
+					<tr><td><center><img src="images/westernOmelet.jpg" alt="Western Omelet"></center></td></tr>
+					<tr><td><p>
+						Ham, peppers, onions and mushrooms.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$7.25</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">FARMER'S SKILLET</h4></td></tr>
+					<tr><td><center><img src="images/farmerSkillet.jpg" alt="Farmer's Skillet"></center></td></tr>
+					<tr><td><p>
+						A bed of American fries covered with onions,
+						green peppers and sausage. Topped with gravy,
+						eggs, and toast.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$8.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">VEGGIE DELUXE OMELET</h4></td></tr>
+					<tr><td><center><img src="images/veggieOmelet.jpg" alt="Veggie Deluxe Omelet"></center></td></tr>
+					<tr><td><p>
+						Spinach, green peppers, onions, tomatoes, black
+						olives, mushrooms and swiss cheese.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$6.75</h5></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<br/>
+		<!--Griddle section-->
+		<h3 style="text-align: center;">From the Griddle</h3>
+		<div class="grid-container">
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">PANCAKE BREAKFAST</h4></td></tr>
+					<tr><td><center><img src="images/pancake.jpg" alt="Pancake Breakfast"></center></td></tr>
+					<tr><td><p>
+						One pancake with one egg of your choice of bacon,
+						links, or patty.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$7.00</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4 style="text-align: center;">FRENCH TOAST BREAKFAST</h4></td></tr>
+					<tr><td><center><img src="images/frenchToast.jpg" alt="French Toast Breakfast"></center></td></tr>
+					<tr><td><p>
+						Two slices of French toast with one egg and your
+						choice of bacon, patty, or links.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$7.00</h5></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<br>
+		<!--Sides section-->
+		<div class="grid-container2">
+			<div class="item1">
+				<table align="center">
+					<tr><td><h4>Add-Ons</h4></td></tr>
+					<tr><td><h5>Green Peppers: $0.75</h5></td></tr>
+					<tr><td><h5>Tomatoes: $0.75</h5></td></tr>
+					<tr><td><h5>Jalapeños: $0.75</h5></td></tr>
+					<tr><td><h5>Black Olives: $0.75</h5></td></tr>
+					<tr><td><h5>Onions: $0.50</h5></td></tr>
+					<tr><td><h5>Sour Cream: $0.50</h5></td></tr>
+					<tr><td><h5>Ranch: $0.75</h5></td></tr>
+					<tr><td><h5>Salsa: $0.75</h5></td></tr>
+					<tr><td><h5>Cheese Slice: $0.50</h5></td></tr>
+					<tr><td><h5>Shredded Cheese: $1.00</h5></td></tr>
+					<tr><td><h5>Blueberries: $0.75</h5></td></tr>
+					<tr><td><h5>Strawberries: $1.50</h5></td></tr>
+					<tr><td><h5>Whipped Cream: $0.75</h5></td></tr>
+				</table>
+			</div>
+			<div class="item2">
+				<table align="center">
+					<tr><td><h4>Cereals & Sides</h4></td></tr>
+					<tr><td><h5>Oatmeal: Half: $3.50, Full: $4.00, Add raisins: $0.50</h5></td></tr>
+					<tr><td><h5>Hash browns: Half: $2.00, Full: $3.00</h5></td></tr>
+					<tr><td><h5>American fries: Half: $2.00, Full: $3.00</h5></td></tr>
+					<tr><td><h5>Bacon: (1): $1.50, (2): $2.75, (3): $3.50</h5></td></tr>
+					<tr><td><h5>Ham: $3.50</h5></td></tr>
+					<tr><td><h5>Corned Beef Hash: $5.00</h5></td></tr>
+					<tr><td><h5>Sausage Patty: (1): $2.00, (2): $3.50</h5></td></tr>
+					<tr><td><h5>Sausage Links: (2): $2.00, (3): $3.50</h5></td></tr>
+					<tr><td><h5>Eggs: (1): $1.25, (2): $1.75</h5></td></tr>
+					<tr><td><h5>English Muffin: $2.50</h5></td></tr>
+					<tr><td><h5>Slice of Toast & Jelly: (1): $1.15, (2): $2.00</h5></td></tr>
+					<tr><td><h5>Muffin: $3.00</h5></td></tr>
+					<tr><td><h5>Buttermilk biscuit: $1.50</h5></td></tr>
+					<tr><td><h5>Homemade Rolls: $3.00</h5></td></tr>
+				</table>
+			</div>
+			<div class="item3">
+				<table align="center">
+					<tr><td><h4>Beverages</h4></td></tr>
+					<tr><td><h5>Canned Soda*: $1.50</h5></td></tr>
+					<tr><td><h5>Hot Chocolate: $2.50</h5></td></tr>
+					<tr><td><h5>Milk (sm): $2.00, (lg): $2.50</h5></td></tr>
+					<tr><td><h5>Chocolate Milk (sm): $2.00, (lg): $2.75</h5></td></tr>
+					<tr><td><h5>Fruit Juices** (sm): $2.00, (lg): $2.75</h5></td></tr>
+					<tr><td><p>*Canned Soda comes in 12 oz cans of Coke & Pepsi products</p></td></tr>
+					<tr><td><p>**Fruit Juices flavors include orange, tomato, grapesuit, and apple.</td></tr>
+				</table>
+			</div>
+		</div>
+	</main>
+
+	<!--Footer with copyright-->
+	<footer>&#169 2022 Biff's Kitchen</footer>
+</body>
+</html>

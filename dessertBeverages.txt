@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biff's Kitchen | Daily Specials</title>
+	<meta charset="utf-8">
+	<link href="kitchenStyle.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<a href="home.html"><h1>Home</h1></a> &nbsp;
+		<a href="menu.html"><h1>Menu</h1></a> &nbsp;
+		<a href="contact.html"><h1>Contact</h1></a> 
+	</header>
+	<h2 style="text-align: center;">Menu</h2>
+	<h2 style="text-align: center;">Daily Specials</h2>
+	<nav>
+	</nav>
+	<main></main>
+	<footer></footer>
+</body>
+</html>

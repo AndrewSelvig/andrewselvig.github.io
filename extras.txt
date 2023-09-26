@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biff's Kitchen | Extras</title>
+	<meta charset="utf-8">
+
+	<!--Favicon-->
+	<link href="kitchenStyle.css" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="images/biffThumbnail.jpg">
+</head>
+<body>
+	<!--Main navigation section-->
+	<header>
+		<a href="contact.html"><h1>Contact</h1></a>
+		<a href="menu.html"><h1>Menu</h1></a>
+		<a href="home.html"><h1>Home</h1></a>
+	</header>
+
+	<!--Main section titles-->
+	<h2 style="text-align: center;">Menu</h2>
+	<h2 style="text-align: center;">Extras</h2>
+
+	<!--Menu navigation section-->
+	<nav>
+		<a href="menu.html"><h3>Daily Specials</h3></a> &nbsp;
+		<a href="breakfast.html"><h3>Breakfast</h3></a> &nbsp;
+		<a href="meltsMore.html"><h3>Melts & More</h3></a> &nbsp;
+		<a href="burgersSandwiches.html"><h3>Burgers & Sandwiches</h3></a> &nbsp;
+		<a href="extras.html"><h3>Extras</h3></a> &nbsp;
+		<a href="appetizers.html"><h3>Appetizers</h3></a>
+	</nav>
+	
+	<main>
+		<!--Dinners section-->
+		<h3 style="text-align: center;">Dinners</h3>
+		<center><p>All dinners are served with your choice of French fries, hash browns, American fries or mashed potatoes and gravy.</p></center>
+		<div class="grid-container">
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">HAMBURGER STEAK</h4></td></tr>
+					<tr><td><center><img src="images/hamburgerSteak.jpg" alt="Hamburger Steak"></center></td></tr>
+					<tr><td><p>
+						A half pound, fresh ground beef patty
+						grilled to a juicy perfection.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$9.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">SIRLOIN STEAK</h4></td></tr>
+					<tr><td><center><img src="images/sirloinSteak.jpg" alt="Sirloin Steak"></center></td></tr>
+					<tr><td><p>
+						For our friends who appreciate a fine
+						steak... grilled to your liking!
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">(5 oz): $10.75, (10 oz): $12.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table>
+					<tr><td><h4 style="text-align: center;">COUNTRY FRIED STEAK</h4></td></tr>
+					<tr><td><center><img src="images/friedSteak.jpg" alt="Country Fried Steak"></center></td></tr>
+					<tr><td><p>
+						Tenderized beef steak, lightly breaded
+						and fried golden brown, topped with
+						country gravy.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$8.75</h5></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<br/>
+		<!--Baskets section-->
+		<h3 style="text-align: center;">Baskets</h3>
+		<center><p>Includes French fries</p></center>
+
+		<div class="grid-container">
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">SHRIMP</h4></td></tr>
+					<tr><td><center><img src="images/shrimp.jpg" alt="Shrimp"></center></td></tr>
+					<tr><td><p>
+						Lots of breaded shrimp served with cocktail
+						and tartar sauce.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$9.50</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">CHICKEN STRIPS</h4></td></tr>
+					<tr><td><center><img src="images/chickenStrips.jpg" alt="Chicken Strips"></center></td></tr>
+					<tr><td><p>
+						Tender strips of breaded chicken breast fried
+						golden crisp.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$8.00</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item3">
+				<table>
+					<tr><td><h4 style="text-align: center;">FISH & CHIPS</h4></td></tr>
+					<tr><td><center><img src="images/fishChips.jpg" alt="Fish & Chips"></center></td></tr>
+					<tr><td><p>
+						Flaky cod fillets breaded and fried. Served
+						with tartar sauce.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$9.00</h5></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<br/>
+		<!--Desserts section-->
+		<h3 style="text-align: center;">Desserts</h3>
+		
+		<div class="grid-container">
+			<div class="item1">
+				<table>
+					<tr><td><h4 style="text-align: center;">ICE CREAM SUNDAES</h4></td></tr>
+					<tr><td><center><img src="images/sundae.jpg" alt="Sundaes"></center></td></tr>
+					<tr><td><p>
+						Hand dipped ice cream with your choice of
+						chocolate or strawberry.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">Small: $2.25, Large: $2.75</h5></td></tr>
+				</table>
+			</div>
+
+			<div class="item2">
+				<table>
+					<tr><td><h4 style="text-align: center;">MILKSHAKES</h4></td></tr>
+					<tr><td><center><img src="images/milkshake.jpg" alt="Milkshakes"></center></td></tr>
+					<tr><td><p>
+						Pick your favorite... choose from vanilla,
+						chocolate or strawberry.
+					</p></td></tr>
+					<tr><td><h5 style="text-align: center;">$5.25</h5></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<!--Sides section-->
+		<div class="grid-container2">
+			<div class="item1">
+				<center>
+				<table>
+					<tr><td><h4>Sides</h4></td></tr>
+					<tr><td><h5>French Fries: $2.50</h5></td></tr>
+					<tr><td><h5>American Fries: $3.00</h5></td></tr>
+					<tr><td><h5>Country Gravy: $1.50</h5></td></tr>
+					<tr><td><h5>Bread Stick (1): $0.85 (2): $1.75</h5></td></tr>
+					<tr><td><h5>Potato Salad: $3.75</h5></td></tr>
+					<tr><td><h5>Hash Browns: $3.00</h5></td></tr>
+					<tr><td><h5>Mashed Potato with Country Gravy: $3.00</h5></td></tr>
+				</table>
+				</center>
+			</div>
+			<div class="item2">
+				<center>
+				<table>
+					<tr><td><h4>Beverages</h4></td></tr>
+					<tr><td><h5>Canned Soda*: $1.50</h5></td></tr>
+					<tr><td><h5>Hot Chocolate: $2.50</h5></td></tr>
+					<tr><td><h5>Milk (sm): $2.00 (lg): $2.50</h5></td></tr>
+					<tr><td><h5>Chocolate Milk (sm): $2.00 (lg): $2.75</h5></td></tr>
+					<tr><td><h5>Fruit Juices** (sm): $2.00 (lg): $2.75</h5></td></tr>
+					<tr><td><p>*Canned Soda comes in 12 oz cans of Coke & Pepsi products</p></td></tr>
+					<tr><td><p>**Fruit Juices flavors include orange, tomato, grapesuit, and apple.</td></tr>
+				</table>
+				</center>
+			</div>	
+		</div>
+	</main>
+
+	<!--Footer with copyright-->
+	<br/>
+	<footer>&#169 2022 Biff's Kitchen</footer>
+</body>
+</html>

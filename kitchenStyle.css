@@ -1,0 +1,63 @@
+body {background-color: #FFEFD5;
+	color: black;
+	font-family: Verdana, Arial, sans-serif; 
+}
+
+header {background-color: #FF9900;
+	background-image: url(images/logo.jpg);
+	background-position: left;
+        background-repeat: no-repeat;
+	background-size: 300px;
+	padding: 100px 0px 100px 0px}
+
+nav {text-align: center;
+     font-weight: bold;}
+
+a {text-decoration: none;}
+nav a:hover {text-decoration: underline;}
+
+header a:link, nav a:link {color: #FF0000;}
+
+header h1 {line-height: 100%;
+    text-indent: 1em;
+    display: inline;
+    float: right;}
+
+nav h3 {display: inline;}
+
+div.grid-container2 h5, p {display: inline;}
+
+footer {background-color: #FF9900; 
+        font-size: small;
+	font-style: italic;
+	text-align: center;}
+
+.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		column-gap: 15px;
+		row-gap: 20px;
+}
+
+.grid-container2 {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		column-gap: 15px;
+		row-gap: 20px
+}
+
+.item1 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+.item2 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.item3 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+td {
+	padding: 0px;
+}

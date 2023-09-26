@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biff's Kitchen | Home</title>
+	<meta charset="utf-8">
+	<link href="kitchenStyle.css" rel="stylesheet">
+	
+	<!--Adding the favicon-->
+	<link rel="icon" type="image/x-icon" href="images/biffThumbnail.jpg">
+
+	<style>
+		/*Changing the select width to 200px*/
+		select, input {
+			width: 200px;
+		}
+		select:hover, input:hover, textarea:hover {
+			background-color: #FFEFD5;
+		}
+		.butSub:hover {
+			background-color: #FF9900;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<!--Home page navigation-->
+		<a href="contact.html"><h1>Contact</h1></a>
+		<a href="menu.html"><h1>Menu</h1></a>
+		<a href="home.html"><h1>Home</h1></a>
+	</header>
+
+	<main>
+		<!--Horizontal bar of animated images-->
+		<center>
+		<iframe src="https://giphy.com/embed/7rjj5Z3w87jQcs4yvG" style="width: 39.488vw; height: 22.473vw; float: none;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		<iframe src="https://giphy.com/embed/dU5FJJR8hCUz6" style="width: 28.464vw; height: 22.473vw; float: none;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		<iframe src="https://giphy.com/embed/L3NYGd46cNXCSoM32V" style="width: 22.473vw; height: 22.473vw; float: none;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		</center>
+
+		<br/>
+
+		<!--Form section-->
+		<h1 style="text-align: center;">Feedback</h1>
+		<form id="feedback" action="#" method="post">
+		<fieldset id="custInfo">
+			<table align="center">
+				<!--Legend-->
+				<tr>
+					<td><legend align="center">Message</legend>
+					<td></td>
+					<td></td>
+				</tr>
+				<!--Textbox, first and last name-->
+				<tr>
+					<td rowspan="4">
+						<textarea name="custMess" id="mess" placeholder="Message" rows="5" cols="50" style="resize: none" required></textarea>
+					</td>
+					<td><input name="custFirst" id="first" type="text" placeholder="First Name" required/></td>
+					<td><input name="custLast" id="last" type="last" placeholder="Last Name" required/></td>
+				</tr>
+				<!--Phone number and email-->
+				<tr>
+					<td><input name="custPhone" id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="nnn-nnn-nnnn" required/></td>
+					<td><input name="custEmail" id="first" type="email" placeholder="Email" required/></td>
+				</tr>
+				<!--Date and time-->
+				<tr>
+					<td><input name="custDate" id="date" type="date" required/></td>
+					<td>
+					<select name="custTime" id="time" required>
+						<option value="time1">- Select -</option>
+						<option value="time2">6:00 AM</option>
+						<option value="time3">6:30 AM</option>
+						<option value="time4">7:00 AM</option>
+						<option value="time5">7:30 AM</option>
+						<option value="time6">8:00 AM</option>
+						<option value="time7">8:30 AM</option>
+						<option value="time8">9:00 AM</option>
+						<option value="time9">9:30 AM</option>
+						<option value="time10">10:00 AM</option>
+						<option value="time11">10:30 AM</option>
+						<option value="time12">11:00 AM</option>
+						<option value="time13">11:30 AM</option>
+						<option value="time14">12:00 PM</option>
+						<option value="time15">12:30 PM</option>
+						<option value="time16">1:00 PM</option>
+						<option value="time17">1:30 PM</option>
+					</select>
+					</td>
+				</tr>
+				<!--Subject and submit-->
+				<tr>
+					<td>
+					<select name="custSubject" id="subject" required>
+						<option value="subject1">Select One</option>
+						<option value="subject2">Complaint</option>
+						<option value="subject3">Compliment</option>
+						<option value="subject4">Suggestion</option>
+						<option value="subject5">Privacy Act</option>
+						<option value="subject6">Other</option>
+					</select>
+					</td>
+					<td><input class="butSub" value="Submit" type="submit"/></td>
+				</tr>
+			</table>
+		</fieldset>
+		</form>
+					
+	</main>
+
+	<!--Footer with copyright-->
+	<footer>&#169 2022 Biff's Kitchen</footer>
+</body>
+</html>
